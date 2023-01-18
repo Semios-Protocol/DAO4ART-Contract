@@ -22,7 +22,7 @@ This project used OpenZeppelin(4.x) heavily, including the upgradeable parts.
 
 ### Build
 ```
-cd d4a-contract
+cd DAO4ART-CONTRACT
 npm install
 ln -snf truffle-config.ganache.js truffle-config.js
 truffle compile
@@ -32,7 +32,7 @@ truffle compile
 Make sure you have ganache launched already, and the port is 7545.
 
 ```
-cd d4a-contract
+cd DAO4ART-CONTRACT
 ln -snf truffle-config.ganache.js truffle-config.js
 truffle test
 ```
@@ -63,7 +63,7 @@ Make sure you have valid etherscan API key in the `.env` file.
 
 For ropsten:
 ```
-cd d4a-contract
+cd DAO4ART-CONTRACT
 ln -snf truffle-config.ropsten.js truffle-config.js
 truffle run verify D4ASetting --network ropsten
 ```
